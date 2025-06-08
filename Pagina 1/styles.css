@@ -1,0 +1,138 @@
+/* Establecer el estilo global */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto */
+    background-color: #dedede; /* Color de fondo */
+    display: flex; /* Activa flexbox */
+    align-items: stretch; /* Centra verticalmente */
+    height: 100vh; /* Usa el 100% de la altura de la pantalla */
+    flex-direction: column; /* Acomoda los elementos en columna */
+    margin: 0; /* Elimina márgenes */
+    }
+
+
+/* Estilo para los títulos */
+h1 {
+    font-size: 33px; /* Tamaño del texto */
+    color: rgb(4, 108, 26); /* Color del texto */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 21px; /* Tamaño del texto */
+    line-height: 0.5; /* Espaciado entre líneas */
+    text-align: left; /* Izq el texto dentro del párrafo */
+}
+
+/* Definiendo la clase "parrafo A" */
+.p1 {
+    color: rgb(85, 85, 168); /* Color del texto */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: left; /* Izquierda el texto */
+    font-weight: bold; /* Negrita */
+}
+
+/* Definiendo la clase "parrafo B " */
+.p2 {
+    color: rgb(141, 132, 51); /* Color del texto */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: left; /* Izquierda el texto */
+    font-weight: bold; /* Negrita */
+}
+
+/* Definiendo la clase "parrafo C " */
+.p3 {
+    color: rgb(69, 31, 167); /* Color del texto */
+    font-size: 44px; /* Tamaño de la letra */
+    text-align: center; /* Centro el texto */
+    font-weight: bold; /* Negrita */
+}
+
+.p4 {
+    color: rgb(31, 126, 167); /* Color del texto */
+    font-size: 44px; /* Tamaño de la letra */
+    text-align: left; /* izq el texto */
+    font-weight: bold; /* Negrita */
+    
+    /* NUEVAS PERSONALIZACIONES */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra al texto */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    word-spacing: 5px; /* Espaciado entre palabras */
+    background-color: lightgray; /* Fondo detrás del texto */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid black; /* Borde alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra en el bloque */
+    transition: all 0.3s ease-in-out; /* Animación suave en cambios */
+}
+
+/* Efecto al pasar el mouse por encima */
+.p4:hover {
+    color: white; /* Cambia el color del texto */
+    background-color: rgb(69, 31, 167); /* Cambia el fondo */
+    transform: scale(1.1); /* Hace el texto más grande */
+}
+
+
+
+
+/* Estilo para enlaces */
+a {
+    color: rgb(4, 0, 255); /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Cambiar color de enlace cuando el usuario pasa el cursor */
+a:hover {
+    color: green;
+}
+
+--------------------------------------------------------------------
+/* Estilos del contenedor */
+.contenedor {
+    display: flex;               /* Usamos Flexbox */
+    justify-content: center;     /* Centrado horizontal */
+    align-items: center;         /* Centrado vertical */
+    flex-direction: column;      /* Coloca los botones en columna */
+    height: 50vh;               /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    padding: 10px;               /* Da un poco de espacio entre los botones y los bordes */
+}
+/* Estilos del botón */
+.mi-boton {
+    background-color: #008CBA;  /* Azul */
+    color: white;               /* Texto blanco */
+    padding: 12px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 51px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+    /* Estilo para el botón pequeño */
+.mi-boton.pequeño {
+    font-size: 18px;             /* Fuente más pequeña */
+    padding: 8px 16px;           /* Menos relleno */
+    width: 250px;                /* Ancho más pequeño */
+
+}
+--------------------------------------------------------------------
+/* Efecto al pasar el mouse */
+    .mi-boton:hover {
+    background-color: #005f73; /* Azul más oscuro */
+}
+
+
+/* Estilos para imágenes */
+img {
+    width: 300px; /* Hace que la imagen sea responsiva */
+    max-width: auto; /* Máximo ancho */
+    display: block; /* Evita espacios debajo de la imagen */
+    margin: auto; /* Centra la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+

@@ -1,0 +1,30 @@
+/* Pega aquí todo tu CSS (lo que estaba entre <style> y </style> en tu HTML) */
+/* Puedes agregar aquí los estilos de .main-section y .section-content si lo deseas */
+.main-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+#nosotros.main-section {
+  background: #fff;
+}
+.section-content {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.section-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+.section-content p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+

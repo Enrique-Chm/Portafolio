@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dolce Mia Restaurante - Auténtica cocina italiana">
+  <meta name="theme-color" content="#2c3e50">
+  <title>Dolce Mia Restaurante</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍝%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://static.wixstatic.com/media/097343_675b0eba8bb04bb2b4d3bbe4bb12361e~mv2.png">
+
+  <!-- Preload critical resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <!-- Tu CSS externo -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="#" class="logo" aria-label="Dolce Mia Restaurante">Dolce Mia</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Menú móvil">
+        ☰
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Dolce Mia</h1>
+      <p>Auténtica cocina italiana en el corazón de la ciudad</p>
+      <a href="#menu" class="cta-button">Ver Menú</a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <section id="menu" class="main-section">
+      <div class="section-content">
+        <h2>Nuestro Menú</h2>
+        <p>Descubre nuestra selección de platos tradicionales italianos preparados con ingredientes frescos y auténticos.</p>
+      </div>
+    </section>
+    <section id="nosotros" class="main-section">
+      <div class="section-content">
+        <h2>Sobre Nosotros</h2>
+        <p>Desde 1985, hemos sido el hogar de la auténtica cocina italiana, manteniendo las tradiciones familiares y ofreciendo una experiencia culinaria única.</p>
+      </div>
+    </section>
+    <section id="contacto" class="main-section">
+      <div class="section-content">
+        <h2>Contacto</h2>
+        <p>Visítanos y disfruta de una experiencia gastronómica inolvidable en un ambiente acogedor y familiar.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Tu JS externo -->
+  <script src="script.js"></script>
+</body>
+</html>
