@@ -1,70 +1,83 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- Declara el documento como HTML5 -->
+<html lang="es"> <!-- Inicia el documento HTML y especifica que está en español -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dolce Mia Restaurante - Auténtica cocina italiana">
-  <meta name="theme-color" content="#2c3e50">
-  <title>Dolce Mia Restaurante</title>
+  <meta charset="utf-8"> <!-- Define la codificación de caracteres (acentos, eñes, etc.) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive en móviles -->
+  <meta name="description" content="Dolce Mia Restaurante - Auténtica cocina italiana"> <!-- Descripción corta para buscadores -->
+  <meta name="theme-color" content="#2c3e50"> <!-- Color del navegador en móviles -->
+  <title>Mi portafolio</title> <!-- Título de la pestaña del navegador -->
 
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍝%3C/text%3E%3C/svg%3E">
+  <!-- Icono que aparece en la pestaña (favicon) -->
+ <link rel="icon" type="image/svg+xml"
+  href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BC%3C/text%3E%3C/svg%3E">
+
+  <!-- Icono para agregar a la pantalla de inicio en dispositivos Apple -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://static.wixstatic.com/media/097343_675b0eba8bb04bb2b4d3bbe4bb12361e~mv2.png">
 
-  <!-- Preload critical resources -->
+  <!-- Mejora la carga de fuentes web conectando antes a los servidores de Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Pre-carga las fuentes usadas, mejora velocidad -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-  <!-- Tu CSS externo -->
+  <!-- Vincula tu archivo de estilos externo -->
   <link rel="stylesheet" href="estilo.css">
+
+
+
 </head>
 
-<body>
-  <!-- Loading Screen -->
+<body> <!-- Comienza el cuerpo de la página, donde va todo lo visible -->
+
+  <!-- Pantalla de carga que se muestra mientras la web está cargando -->
   <div class="loading-screen" id="loading">
-    <div class="spinner"></div>
+    <div class="spinner"></div> <!-- Animación de “cargando” (rueda giratoria) -->
   </div>
 
-  <!-- Header -->
-  <header class="header">
+
+
+  <!-- Encabezado fijo con el menú de navegación principal -->
+  <header class="Fondos">
     <nav class="nav-container">
-      <a href="#" class="logo" aria-label="Dolce Mia Restaurante">Dolce Mia</a>
+      <a href="#" class="nav-link" aria-label="MiPortafolio">Mi portafolio</a> <!-- Logo que también es enlace al inicio -->
       <ul class="nav-menu" id="navMenu">
-        <li><a href="#inicio" class="nav-link">Inicio</a></li>
-        <li><a href="#menu" class="nav-link">Menú</a></li>
-        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
-        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <!-- Menú de navegación, cada <li> es una opción -->
+        <li><a href="#Mihistoria" class="nav-link">Mi historia</a></li>     <!-- Ir a la sección de inicio (hero) -->
+        <li><a href="#Experiencia" class="nav-link">Experiencia</a></li>         <!-- Ir a la sección del menú -->
+        <li><a href="#Skills" class="nav-link">Skills</a></li> <!-- Ir a la sección sobre nosotros -->
+        <li><a href="#Contacto" class="nav-link">Contacto</a></li> <!-- Ir a la sección de contacto -->
       </ul>
-      <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Menú móvil">
-        ☰
-      </button>
     </nav>
-  </header>
+</header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="inicio">
-    <div class="hero-content">
-      <h1>Dolce Mia</h1>
-      <p>Auténtica cocina italiana en el corazón de la ciudad</p>
-      <a href="#menu" class="cta-button">Ver Menú</a>
-    </div>
-  </section>
 
-  <!-- Main Content -->
+
+
+  <!-- Contenido principal de la página -->
   <main>
-    <section id="menu" class="main-section">
+    <!-- Sección del Menú -->
+    <section id="Mihistoria" class="main-section">
       <div class="section-content">
-        <h2>Nuestro Menú</h2>
-        <p>Descubre nuestra selección de platos tradicionales italianos preparados con ingredientes frescos y auténticos.</p>
+        <h2>Historia Enrique Chavez</h2> <!-- Título de la sección -->
+        <p>Descubre nuestra selección de platos tradicionales italianos preparados con ingredientes frescos y auténticos.</p> <!-- Descripción corta -->
       </div>
     </section>
-    <section id="nosotros" class="main-section">
+    <!-- Sección Sobre Nosotros -->
+    <section id="Experiencia" class="main-section">
       <div class="section-content">
-        <h2>Sobre Nosotros</h2>
+        <h2>Experiencia</h2>
         <p>Desde 1985, hemos sido el hogar de la auténtica cocina italiana, manteniendo las tradiciones familiares y ofreciendo una experiencia culinaria única.</p>
       </div>
     </section>
-    <section id="contacto" class="main-section">
+    <!-- Sección de Contacto -->
+    <section id="Skills" class="main-section">
+      <div class="section-content">
+        <h2>Skills</h2>
+        <p>Visítanos y disfruta de una experiencia gastronómica inolvidable en un ambiente acogedor y familiar.</p>
+      </div>
+    </section>
+    <!-- Sección de Contacto -->
+    <section id="Contacto" class="main-section">
       <div class="section-content">
         <h2>Contacto</h2>
         <p>Visítanos y disfruta de una experiencia gastronómica inolvidable en un ambiente acogedor y familiar.</p>
@@ -72,7 +85,13 @@
     </section>
   </main>
 
-  <!-- Tu JS externo -->
+
+
+
+
+
+  <!-- Archivo de JavaScript externo para funcionalidades interactivas -->
   <script src="script.js"></script>
 </body>
 </html>
+
